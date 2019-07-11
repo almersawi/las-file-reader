@@ -1,0 +1,25 @@
+{
+  "name": "gr-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "csv": "^5.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.3",
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gama",
+    "Ray"
+  ],
+  "author": "Islam Almersawi",
+  "license": "ISC"
+}

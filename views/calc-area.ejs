@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Caculations Area</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/main.css">
+  </head>
+  <body>
+
+    <% include partials/nav-bar.ejs %>
+
+    <input type="text" name="" value="<%= data.finalTestArr %>" id="allData" hidden>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div id="gamma-container">
+          <div id="gamma"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <!-- For Saturation plot -->
+        <h3>
+          For Saturation Plot
+        </h3>
+      </div>
+
+      <div class="col-md-4">
+        <!-- for Saturation Calculations -->
+        <h3>
+          For Saturation Calculations
+        </h3>
+      </div>
+    </div>
+
+    <!-- <button type="button" name="button" onclick="linkTwo()" class="link" id="linkbtn">Link</button> -->
+    <!-- <div id="sp" style="height: 2200px;width:400px;float: right;"></div> -->
+
+    <!-- Latest compiled and minified plotly.js JavaScript -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="/assets/calc.js" charset="utf-8"></script>
+  </body>
+</html>

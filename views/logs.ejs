@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>All logs are here</title>
+    <link rel="stylesheet" href="/assets/logs.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.ico" />
+  </head>
+  <body>
+
+    <h1 class="subtitle">Choose your log to view</h1>
+      <div class="container">
+        <ul>
+            <% data.header.forEach(function(item){ %>
+              <li><a href="/<%= item %>"><%= item %></a></li>
+            <% }); %>
+        </ul>
+      </div>
+      <script src="/assets/logs.js" charset="utf-8"></script>
+  </body>
+</html>
